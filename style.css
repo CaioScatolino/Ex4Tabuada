@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(219, 248, 248);
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: grey;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 50vh;
+    width: 30vh;
+}
+
+.container p,
+.container h2,
+.container input,
+.container button{
+    padding: 10px;
+    margin: 10px;
+}
+
+footer {
+    height: 5vh;
+}

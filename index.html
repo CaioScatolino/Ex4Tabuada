@@ -1,18 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabuada com Javascript, HTML e CSS</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1 id="titulo">Tabuada</h1>
-    <input type="number" name="" id="numero">
 
-    <button onclick="tabuada()">Calcular</button>
-<p id="p"></p>
+    <header>
+        <h1>Tabuada com Javascript, HTML & CSS</h1>
+    </header>
+    <main>
+        <div class="container">
+            <h2 id="titulo">Tabuada</h2>
+            
+            <input type="number" name="" id="numero" placeholder="Digite um número">
 
-    <script src="script.js"></script>
+            <button onclick="tabuada()">Calcular</button>
+            <p id="p">
+                <!-- ? x 1 = ? <br>
+                ? x 2 = ? <br>
+                ? x 3 = ? <br>
+                ? x 4 = ? <br>
+                ? x 5 = ? <br>
+                ? x 6 = ? <br>
+                ? x 7 = ? <br>
+                ? x 8 = ? <br>
+                ? x 9 = ? <br>
+                ? x 10 = ? <br> -->
+            </p>
+        </div>
+    </main>
+    <script src="/script.js"></script>
 </body>
+
 </html>

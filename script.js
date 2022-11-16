@@ -9,5 +9,9 @@ function tabuada(numero) {
     }
 }
 
+function limpar() {
+    document.getElementById("p").innerHTML = ""
+}
+
 
 

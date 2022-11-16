@@ -11,6 +11,8 @@ function tabuada(numero) {
 
 function limpar() {
     document.getElementById("p").innerHTML = ""
+    document.getElementById("titulo").innerHTML = "Tabuada"
+
 }
 
 

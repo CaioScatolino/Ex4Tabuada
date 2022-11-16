@@ -27,6 +27,7 @@ main {
     background-color: white;
     height: 50vh;
     width: 30vh;
+    border-radius: 20px;
 }
 
 .container p,
@@ -39,4 +40,20 @@ main {
 
 footer {
     height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(201, 199, 199);
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(7, 143, 136);
+    font-weight: bold;
+
+}
+
+footer a:hover {
+    color: orangered;
 }
